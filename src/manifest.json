@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Hover Bars",
+	"version": "1.2.0",
+	"description": "Hide the top tab bar and the reader toolbar; reveal them by hovering at the top edge.",
+	"author": "dragonlau0924",
+	"homepage_url": "https://github.com/dragonlau0924/zotero-hover-bars",
+	"applications": {
+		"zotero": {
+			"id": "hover-bars@local.plugin",
+			"update_url": "https://github.com/dragonlau0924/zotero-hover-bars/releases/download/update-manifest/update.json",
+			"strict_min_version": "8.0",
+			"strict_max_version": "10.0.*"
+		}
+	}
+}
